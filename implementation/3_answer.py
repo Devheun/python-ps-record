@@ -1,0 +1,1 @@
+# It is similar to 3_mine.py.
