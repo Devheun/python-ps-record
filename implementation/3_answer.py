@@ -1,1 +1,1 @@
-# It is similar to 3_mine.py.
+# It is similar to 3_mine.py
