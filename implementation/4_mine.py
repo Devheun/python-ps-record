@@ -39,10 +39,10 @@ while True:
             nx=a-dx[direc]
             ny=b-dy[direc]
                 
-            if array[nx][ny]==0:
+            if array[nx][ny]==0: #뒤로 갈 수 있을 때 (바다일 때만 못가고 방문했을 때는 갈 수 있음!)
                 a=nx
                 b=ny
-            else:
+            else: # 뒤로 갈 수 없을 때
                 break
             cnt=0
 print(result)
