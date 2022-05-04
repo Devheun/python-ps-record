@@ -5,7 +5,8 @@ a,b,direc=map(int,input().split()) #direc - 0 : 북, 1 : 동, 2 : 남, 3 : 서
 
 array=[list(map(int,input().split())) for _ in range(n)] # 좌표 0,0 부터 시작, 1이면 바다, 0이면 육지 
 # !!!!!!!!!!! array에서 int로 안바꿔줘서 한참 오류 찾음 !!!!!!!!!!!!!!!
-d=[[0]*m for _ in range(n)]
+
+d=[[0]*m for _ in range(n)] 
 d[a][b]=1 # 초기에 서 있는 위치
 result=1
 
