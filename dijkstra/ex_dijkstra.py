@@ -16,6 +16,7 @@ distance=[INF] * (n+1)
 
 for _ in range(m):
     a,b,c=map(int,input().split())
+    #a 노드에서 b 노드로 가는 비용이 c
     graph[a].append((b,c))
     
 def dijkstra(start):
